@@ -1,0 +1,55 @@
+<html>
+
+    <head>
+        <title>Case Study</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+      
+      </head>
+
+      <body>
+        <center>
+          <h1>Case Study</h1>
+          <div><img class="img-responsive" src="Dog.jpg"><h2>Output on MobileNet: <span id="dog_mobilenet">Golden Retriever</span></h2>
+          <br>
+          <br>
+          <h2>Output on Azure: <span id="dog_azure">Closeup of a dog</span></h2>
+          <h2 style="color: black;">Result: Both are right</h2>
+          </div>
+
+          <div><img class="img-responsive" src="Laptop.png"><h2>Output on MobileNet: <span id="laptop_mobilenet">Notebook Computer</span></h2>
+          <br>
+          <br>
+          <h2>Output on Azure: <span id="laptop_azure">A screenshot of an open laptop sitting on top of a table</span></h2>
+          <h2 style="color: black;">Result: Both are right</h2>  
+        </div>
+
+          <div><img class="img-responsive" src="Phone.jpg"><h2>Output on MobileNet: <span id="phone_mobilenet">Envolope</span></h2>
+          <br>
+          <br>
+          <h2>Output on Azure: <span id="phone_azure">Closeup of a window</span></h2>
+          <h2 style="color: black;">Result: Both are wrong</h2>
+          </div>
+
+          <div><img class="img-responsive" src="Sharpner.jpg"><h2>Output on MobileNet: <span id="sharpner_mobilenet">Pencil Sharpner</span></h2>
+          <br>
+          <br>
+          <h2>Output on Azure: <span id="sharpner_azure">Closeup of a box</span></h2>
+          <h2 style="color: black;">Result: MobileNet only is right</h2>
+          </div>
+
+          <div><img class="img-responsive" src="Water Bottle.jpg"><h2>Output on MobileNet: <span id="water_mobilenet">Water Bottle</span></h2>
+          <br>
+          <br>
+          <h2>Output on Azure: <span id="water_azure">Bottle of water</span></h2>
+          <h2 style="color: black;">Result: Both are right</h2>
+        </div>
+        <div id="result"> MobileNet identifies 4 objects right a=nd azzure identified 3 objects right Winner: MobileNet</div>
+        </center>
+      </body>
+
+</html>

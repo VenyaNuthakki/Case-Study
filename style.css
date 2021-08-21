@@ -1,0 +1,13 @@
+body{
+    background-color: cyan;
+    text-align: center;
+}
+
+h2{
+    color: darkorchid;
+}
+
+#result{
+    background-color: tan;
+    font-size: 25px;
+}
